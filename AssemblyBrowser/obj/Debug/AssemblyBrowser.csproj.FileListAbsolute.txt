@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\View\MainWindow.g.cs
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\App.g.cs
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser_MarkupCompile.cache
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser_MarkupCompile.lref
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\bin\Debug\AssemblyBrowser.exe.config
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\bin\Debug\AssemblyBrowser.exe
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\bin\Debug\AssemblyBrowser.pdb
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\View\MainWindow.baml
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.g.resources
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.Properties.Resources.resources
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.exe
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.pdb
