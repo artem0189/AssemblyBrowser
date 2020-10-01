@@ -8,18 +8,16 @@ namespace AssemblyLib
 {
     public class AssemblyStructure
     {
-        private Assembly _assembly;
+        private AssemblyTree _assemblyTree;
 
         public AssemblyStructure(Assembly assembly)
         {
-            _assembly = assembly;
+            _assemblyTree = new AssemblyTree(assembly);
         }
 
         public List<IAssemblyNode> GetAssemblyStructure()
         {
-            Type[] assemblyTypes = Metadata.GetAssemblyTypes(_assembly);
-            List<IAssemblyNode> namespaces = Metadata.SortByNamespaces(assemblyTypes);
-            return namespaces;
+            return _assemblyTree.GetAssemblyTree();
         }
     }
 }

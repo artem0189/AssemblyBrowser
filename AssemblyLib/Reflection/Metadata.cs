@@ -21,25 +21,5 @@ namespace AssemblyLib.Reflection
             }
             return assemblyTypes;
         }
-
-        internal static List<IAssemblyNode> SortByNamespaces(Type[] types)
-        {
-            List<IAssemblyNode> result = new List<IAssemblyNode>();
-            for (int i = 0; i < types.Length; i++)
-            {
-                NamespaceNode newNode = new NamespaceNode(types[i].Namespace);
-                newNode.Nodes.Add(new TypeNode(types[i].Name));
-                int index = result.IndexOf(newNode);
-                if (index >= 0)
-                {
-                    result[index].Nodes.Add(new TypeNode(types[i].Name));
-                }
-                else
-                {
-                    result.Add(newNode);
-                }
-            }
-            return result;
-        }
     }
 }
