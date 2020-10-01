@@ -1,19 +1,21 @@
 ﻿using System;
 using System.Reflection;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using AssemblyLib;
+using AssemblyLib.AssemblyNode;
 
 namespace AssemblyBrowser.Model
 {
     public class AssemblyInfo
     {
         public Assembly Assembly { get; }
-        public ObservableCollection<object> AssemblyStruct { get; }
+        public List<IAssemblyNode> AssemblyStruct { get; }
 
         public AssemblyInfo(string assemblyName)
         {
             Assembly = Assembly.LoadFile(assemblyName);
-            AssemblyStruct = AssemblyStructure.GetAssemblyStructure(Assembly);
+            AssemblyStruct = new AssemblyStructure(Assembly).GetAssemblyStructure();
         }
     }
 }

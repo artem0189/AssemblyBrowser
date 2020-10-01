@@ -1,0 +1,5 @@
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyLib\bin\Debug\AssemblyLib.dll
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyLib\bin\Debug\AssemblyLib.pdb
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyLib\obj\Debug\AssemblyLib.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyLib\obj\Debug\AssemblyLib.dll
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyLib\obj\Debug\AssemblyLib.pdb

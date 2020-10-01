@@ -12,3 +12,6 @@ C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBro
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.csproj.GenerateResource.cache
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.exe
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.pdb
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\bin\Debug\AssemblyLib.dll
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\bin\Debug\AssemblyLib.pdb
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.csproj.CopyComplete

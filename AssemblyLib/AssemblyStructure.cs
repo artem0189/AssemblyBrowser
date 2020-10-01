@@ -1,13 +1,27 @@
 ﻿using System;
 using System.Reflection;
-using System.Collections.ObjectModel;
+using System.Collections.Generic;
+using AssemblyLib.Reflection;
+using AssemblyLib.AssemblyNode;
 
 namespace AssemblyLib
 {
-    public static class AssemblyStructure
+    public class AssemblyStructure
     {
-        public static ObservableCollection<object> GetAssemblyStructure(Assembly assembly)
+        private Assembly _assembly;
+
+        public AssemblyStructure(Assembly assembly)
         {
+            _assembly = assembly;
+        }
+
+        public List<IAssemblyNode> GetAssemblyStructure()
+        {
+            Type[] assemblyTypes = Metadata.GetAssemblyTypes(_assembly);
+            for (int i = 0; i < assemblyTypes.Length; i++)
+            {
+
+            }
             return null;
         }
     }

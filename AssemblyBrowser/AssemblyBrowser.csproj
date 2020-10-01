@@ -99,7 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AssemblyLib\AssemblyLib.csproj">
-      <Project>{f8b431e2-84f6-48a7-9a09-b95b5ee706ee}</Project>
+      <Project>{3295f1b9-47f7-447a-b681-b0f0b5185b6d}</Project>
       <Name>AssemblyLib</Name>
     </ProjectReference>
   </ItemGroup>
