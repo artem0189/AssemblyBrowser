@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AssemblyBrowser.Command
 {
-    class RelayCommand : ICommand
+    public class RelayCommand : ICommand
     {
         private Action<object> _execute;
         private Func<object, bool> _canExecute;
