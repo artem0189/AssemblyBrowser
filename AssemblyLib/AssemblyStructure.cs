@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
+using System.Collections.ObjectModel;
 
 namespace AssemblyLib
 {
-    public class Class1
+    public static class AssemblyStructure
     {
+        public static ObservableCollection<object> GetAssemblyStructure(Assembly assembly)
+        {
+            return null;
+        }
     }
 }
