@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyNode\FieldNode.cs" />
+    <Compile Include="AssemblyNode\IAssemblyNode.cs" />
+    <Compile Include="AssemblyNode\MethodNode.cs" />
+    <Compile Include="AssemblyNode\NamespaceNode.cs" />
+    <Compile Include="AssemblyNode\PropertyNode.cs" />
+    <Compile Include="AssemblyNode\TypeNode.cs" />
     <Compile Include="AssemblyStructure.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\Metadata.cs" />

@@ -18,11 +18,8 @@ namespace AssemblyLib
         public List<IAssemblyNode> GetAssemblyStructure()
         {
             Type[] assemblyTypes = Metadata.GetAssemblyTypes(_assembly);
-            for (int i = 0; i < assemblyTypes.Length; i++)
-            {
-
-            }
-            return null;
+            List<IAssemblyNode> namespaces = Metadata.SortByNamespaces(assemblyTypes);
+            return namespaces;
         }
     }
 }

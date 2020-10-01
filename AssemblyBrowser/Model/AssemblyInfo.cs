@@ -14,7 +14,7 @@ namespace AssemblyBrowser.Model
 
         public AssemblyInfo(string assemblyName)
         {
-            Assembly = Assembly.LoadFile(assemblyName);
+            Assembly = Assembly.LoadFrom(assemblyName);
             AssemblyStruct = new AssemblyStructure(Assembly).GetAssemblyStructure();
         }
     }
