@@ -2,7 +2,7 @@
 
 namespace AssemblyLib.AssemblyNode
 {
-    internal class PropertyNode
+    internal class PropertyNode : IAssemblyNode
     {
         public string Name { get; }
         public List<IAssemblyNode> Nodes { get; }
