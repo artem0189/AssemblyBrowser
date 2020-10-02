@@ -33,7 +33,9 @@ namespace AssemblyLib
         private List<IAssemblyNode> GetMembers(Type type)
         {
             List<IAssemblyNode> result = new List<IAssemblyNode>();
-            result.
+            result.AddRange(Metadata.GetMethods(type));
+            result.AddRange(Metadata.GetFields(type));
+            result.AddRange(Metadata.GetProperties(type));
             return result;
         }
 

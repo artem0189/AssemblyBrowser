@@ -27,7 +27,7 @@ namespace AssemblyLib.Reflection
         internal static List<IAssemblyNode> GetMethods(Type type)
         {
             List<IAssemblyNode> result = new List<IAssemblyNode>();
-            MethodInfo[] methods = type.GetMethods(_flags | BindingFlags.DeclaredOnly).;
+            MethodInfo[] methods = type.GetMethods(_flags | BindingFlags.DeclaredOnly);
             for (int i = 0; i < methods.Length; i++)
             {
                 result.Add(new MethodNode(methods[i].Name));
