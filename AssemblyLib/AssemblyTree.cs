@@ -11,7 +11,6 @@ namespace AssemblyLib
     {
         private Assembly _assembly;
         private List<IAssemblyNode> _tree;
-        private const BindingFlags _flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static;
 
         internal AssemblyTree(Assembly assembly)
         {
@@ -34,6 +33,7 @@ namespace AssemblyLib
         private List<IAssemblyNode> GetMembers(Type type)
         {
             List<IAssemblyNode> result = new List<IAssemblyNode>();
+            result.
             return result;
         }
 
