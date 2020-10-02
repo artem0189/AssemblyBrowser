@@ -12,5 +12,10 @@ namespace AssemblyLib.AssemblyNode
             Name = name;
             Nodes = new List<IAssemblyNode>();
         }
+
+        public override bool Equals(object obj)
+        {
+            return (obj as NamespaceNode).Name == this.Name;
+        }
     }
 }

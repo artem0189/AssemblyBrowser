@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestLibrary
+namespace TestLibrary.Tree.TreeNode
 {
-    public class Class1
+    public interface INode
     {
+        object Value { get; set; }
     }
 }
