@@ -8,6 +8,7 @@ namespace TestLibrary.Tree.TreeNode
 {
     public class Node : INode
     {
+        private object test;
         public object Value { get; set; }
         
         public Node(object value)

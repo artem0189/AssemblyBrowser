@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace AssemblyLib.AssemblyNode
 {
@@ -7,9 +8,9 @@ namespace AssemblyLib.AssemblyNode
         public string Name { get; }
         public List<IAssemblyNode> Nodes { get; }
 
-        internal TypeNode(string name)
+        internal TypeNode(Type type)
         {
-            Name = name;
+            Name = type.Name;
             Nodes = new List<IAssemblyNode>();
         }
     }

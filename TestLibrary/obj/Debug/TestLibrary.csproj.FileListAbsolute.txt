@@ -1,5 +1,4 @@
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\TestLibrary\bin\Debug\TestLibrary.dll
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\TestLibrary\bin\Debug\TestLibrary.pdb
-C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\TestLibrary\obj\Debug\TestLibrary.csprojAssemblyReference.cache
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\TestLibrary\obj\Debug\TestLibrary.dll
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\TestLibrary\obj\Debug\TestLibrary.pdb

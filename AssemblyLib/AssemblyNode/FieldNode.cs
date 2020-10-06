@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Reflection;
+using System.Collections.Generic;
 
 namespace AssemblyLib.AssemblyNode
 {
@@ -7,9 +8,9 @@ namespace AssemblyLib.AssemblyNode
         public string Name { get; }
         public List<IAssemblyNode> Nodes { get; }
 
-        internal FieldNode(string name)
+        internal FieldNode(FieldInfo field)
         {
-            Name = name;
+            Name = field.FieldType.Name + " " + field.Name;
             Nodes = null;
         }
     }
