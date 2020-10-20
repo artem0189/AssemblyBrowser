@@ -15,3 +15,4 @@ C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBro
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\bin\Debug\AssemblyLib.dll
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\bin\Debug\AssemblyLib.pdb
 C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\AssemblyBrowser.csproj.CopyComplete
+C:\Users\USER\Desktop\лб\спп\AssemblyBrowserApp\AssemblyBrowser\AssemblyBrowser\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -64,7 +64,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Command\RelayCommand.cs" />
-    <Compile Include="Model\AssemblyInfo.cs" />
+    <Compile Include="Converters\MethodExtensionConverter.cs" />
+    <Compile Include="Model\Assembly.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="View\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -103,5 +104,6 @@
       <Name>AssemblyLib</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

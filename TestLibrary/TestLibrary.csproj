@@ -46,6 +46,7 @@
     <Compile Include="Extension\StringExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\Metadata.cs" />
+    <Compile Include="SecondClass.cs" />
     <Compile Include="Tree\TreeClass.cs" />
     <Compile Include="Tree\TreeNode\INode.cs" />
     <Compile Include="Tree\TreeNode\Node.cs" />

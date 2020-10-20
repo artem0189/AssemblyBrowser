@@ -20,6 +20,8 @@ namespace UnitTestAssemblyLib
             result = new AssemblyStructure(assembly).GetAssemblyStructure();
         }
 
+        /*
+
         [TestMethod]
         public void TestNamespaces()
         {
@@ -67,5 +69,6 @@ namespace UnitTestAssemblyLib
             Assert.IsNotNull(nodeClass.Nodes.Count(elem => elem.Name.Equals("Object test")));
             Assert.IsNotNull(nodeClass.Nodes.Count(elem => elem.Name.Equals("Object Value")));
         }
+        */
     }
 }

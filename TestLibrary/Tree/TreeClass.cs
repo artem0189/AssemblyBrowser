@@ -21,9 +21,14 @@ namespace TestLibrary.Tree
 
         }
 
-        public void AddElem(INode elem)
+        public void AddElem(int a, INode elem)
         {
             
+        }
+
+        private void CheckElem()
+        {
+
         }
     }
 }

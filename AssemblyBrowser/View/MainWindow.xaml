@@ -4,8 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AssemblyBrowser"
+        xmlns:conv="clr-namespace:AssemblyBrowser.Converters"
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="300">
+    <Window.Resources>
+        <conv:MethodExtensionConverter x:Key="methodExtensionConverter"  />
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0.1*" />
@@ -14,15 +18,21 @@
         <DockPanel Grid.Row="0" LastChildFill="True">
             <Button DockPanel.Dock="Bottom" Content="Загрузить" Height="30" Width="100" Command="{Binding LoadAssemblyCommand}"/>
         </DockPanel>
-        <TreeView Grid.Row="1" ItemsSource="{Binding AssemblyInfo.AssemblyStruct}">
+        <TreeView Grid.Row="1" ItemsSource="{Binding Assembly.Nodes}">
             <TreeView.ItemTemplate>
-                <HierarchicalDataTemplate ItemsSource="{Binding Nodes}">
+                <HierarchicalDataTemplate ItemsSource="{Binding Childrens}">
                     <HierarchicalDataTemplate.ItemContainerStyle>
                         <Style TargetType="TreeViewItem">
                             <Style.Triggers>
-                                <DataTrigger Binding="{Binding IsExtensionMethod}" Value="True">
-                                    <Setter Property="Foreground" Value="Red" />
-                                </DataTrigger>
+                                <MultiDataTrigger>
+                                    <MultiDataTrigger.Conditions>
+                                        <Condition Binding="{Binding NodeType}" Value="Method" />
+                                        <Condition Binding="{Binding ObjectType, Converter={StaticResource methodExtensionConverter}}" Value="True" />
+                                    </MultiDataTrigger.Conditions>
+                                    <MultiDataTrigger.Setters>
+                                        <Setter Property="Foreground" Value="Red" />
+                                    </MultiDataTrigger.Setters>
+                                </MultiDataTrigger>
                             </Style.Triggers>
                         </Style>
                     </HierarchicalDataTemplate.ItemContainerStyle>

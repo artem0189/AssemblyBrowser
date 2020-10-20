@@ -15,17 +15,17 @@ namespace AssemblyBrowser.ViewModel
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        private AssemblyInfo _assemblyInfo;
-        public AssemblyInfo AssemblyInfo
+        private Assembly _assembly;
+        public Assembly Assembly
         {
             get
             {
-                return _assemblyInfo;
+                return _assembly;
             }
             set
             {
-                _assemblyInfo = value;
-                OnPropertyChanged("AssemblyInfo");
+                _assembly = value;
+                OnPropertyChanged("Assembly");
             }
         }
 
@@ -35,13 +35,13 @@ namespace AssemblyBrowser.ViewModel
             get
             {
                 return _loadAssemblyCommad ??
-                    (new RelayCommand(obj =>
+                    (_loadAssemblyCommad = new RelayCommand(obj =>
                     {
                         OpenFileDialog openFileDialog = new OpenFileDialog();
                         openFileDialog.Filter = "Assembly |*.dll";
                         if (openFileDialog.ShowDialog() == true)
                         {
-                            AssemblyInfo = new AssemblyInfo(openFileDialog.FileName);
+                            Assembly = new Assembly(openFileDialog.FileName);
                         }
                     }));
             }
