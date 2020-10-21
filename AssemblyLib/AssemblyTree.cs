@@ -84,7 +84,7 @@ namespace AssemblyLib
         internal List<AssemblyNode> GetAssemblyTree()
         {
             CreateTree();
-            return _tree;
+            return _tree.OrderBy(node => node.Name).ToList();
         }
     }
 }

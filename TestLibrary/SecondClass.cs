@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestLibrary
 {
-    class SecondClass
+    public class SecondClass<T, F>
     {
+        public List<List<T>> CheckMethod(T g, F f)
+        {
+            return null;
+        }
     }
 }
